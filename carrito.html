@@ -117,15 +117,16 @@
       <section class="mt-6 overflow-hidden rounded-2xl border border-stone-200 bg-white" aria-labelledby="lista-productos">
         <h2 id="lista-productos" class="sr-only">Listado de productos del carrito</h2>
 
-        <div class="hidden grid-cols-[2fr_1fr_1fr_1fr] gap-4 border-b border-stone-200 bg-stone-50 px-5 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-stone-500 md:grid">
-          <p>Producto</p>
-          <p>Precio unitario</p>
-          <p>Cantidad</p>
-          <p>Total</p>
+        <div class="hidden grid-cols-5 gap-4 border-b border-stone-200 bg-stone-50 px-5 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-stone-500 md:grid">
+          <p class="text-left">Producto</p>
+          <p class="text-center">Precio unitario</p>
+          <p class="text-center">Cantidad</p>
+          <p class="text-center">Total</p>
+          <p class="text-center">Eliminar</p>
         </div>
 
         <article class="border-b border-stone-200 px-4 py-4 sm:px-5">
-          <div class="grid gap-4 md:grid-cols-[2fr_1fr_1fr_1fr] md:items-center">
+          <div class="grid gap-4 md:grid-cols-5 md:items-center">
             <div class="flex items-center gap-3">
               <img
                 src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=400&q=80"
@@ -138,14 +139,23 @@
                 <p class="text-xs text-stone-500">Referencia: MV-TRN-LS-2026</p>
               </div>
             </div>
-            <p class="text-sm text-stone-700">149 EUR</p>
-            <p class="text-sm text-stone-700">1</p>
-            <p class="text-sm font-semibold text-stone-900">149 EUR</p>
+            <p class="text-center text-sm text-stone-700">149 EUR</p>
+            <p class="text-center text-sm text-stone-700">1</p>
+            <p class="text-center text-sm font-semibold text-stone-900">149 EUR</p>
+            <div class="flex justify-center">
+              <button
+                type="button"
+                aria-label="Eliminar Trench Lumiere Sable del carrito"
+                class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-red-300 text-lg font-bold leading-none text-red-600 transition hover:bg-red-50"
+              >
+                <span class="block leading-none">X</span>
+              </button>
+            </div>
           </div>
         </article>
 
         <article class="border-b border-stone-200 px-4 py-4 sm:px-5">
-          <div class="grid gap-4 md:grid-cols-[2fr_1fr_1fr_1fr] md:items-center">
+          <div class="grid gap-4 md:grid-cols-5 md:items-center">
             <div class="flex items-center gap-3">
               <img
                 src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80"
@@ -158,14 +168,23 @@
                 <p class="text-xs text-stone-500">Referencia: MV-CAM-BP-2026</p>
               </div>
             </div>
-            <p class="text-sm text-stone-700">71 EUR</p>
-            <p class="text-sm text-stone-700">2</p>
-            <p class="text-sm font-semibold text-stone-900">142 EUR</p>
+            <p class="text-center text-sm text-stone-700">71 EUR</p>
+            <p class="text-center text-sm text-stone-700">2</p>
+            <p class="text-center text-sm font-semibold text-stone-900">142 EUR</p>
+            <div class="flex justify-center">
+              <button
+                type="button"
+                aria-label="Eliminar Camisa Bastille Poplin del carrito"
+                class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-red-300 text-lg font-bold leading-none text-red-600 transition hover:bg-red-50"
+              >
+                <span class="block leading-none">X</span>
+              </button>
+            </div>
           </div>
         </article>
 
         <article class="px-4 py-4 sm:px-5">
-          <div class="grid gap-4 md:grid-cols-[2fr_1fr_1fr_1fr] md:items-center">
+          <div class="grid gap-4 md:grid-cols-5 md:items-center">
             <div class="flex items-center gap-3">
               <img
                 src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80"
@@ -178,9 +197,18 @@
                 <p class="text-xs text-stone-500">Referencia: MV-BOT-MC-2026</p>
               </div>
             </div>
-            <p class="text-sm text-stone-700">139 EUR</p>
-            <p class="text-sm text-stone-700">1</p>
-            <p class="text-sm font-semibold text-stone-900">139 EUR</p>
+            <p class="text-center text-sm text-stone-700">139 EUR</p>
+            <p class="text-center text-sm text-stone-700">1</p>
+            <p class="text-center text-sm font-semibold text-stone-900">139 EUR</p>
+            <div class="flex justify-center">
+              <button
+                type="button"
+                aria-label="Eliminar Bota Montagne Cuir del carrito"
+                class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-red-300 text-lg font-bold leading-none text-red-600 transition hover:bg-red-50"
+              >
+                <span class="block leading-none">X</span>
+              </button>
+            </div>
           </div>
         </article>
       </section>
